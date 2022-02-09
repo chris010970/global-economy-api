@@ -1,0 +1,472 @@
+,index,name
+0,2,Economic growth
+1,3,"GDP per capita, PPP"
+2,5,GDP share of agriculture
+3,6,"GDP, current U.S. dollars"
+4,7,Inflation
+5,9,Government debt
+6,10,Unemployment rate
+7,11,Share of industry
+8,12,Share of manufacturing
+9,13,Share of services
+10,15,Bank credit to the private sector
+11,16,"Stock market capitalization, percent of GDP"
+12,19,"Exports, percent of GDP"
+13,20,"Imports, percent of GDP"
+14,21,"Current account, percent of GDP old"
+15,22,"Foreign Direct Investment, percent of GDP"
+16,23,Reserves
+17,25,Population size
+18,26,Life expectancy
+19,27,Internet users
+20,29,Energy use per capita
+21,30,Share of clean energy
+22,31,Energy use per $1000 GDP
+23,32,Energy imports
+24,34,GDP per unit of energy
+25,35,Lending interest rate
+26,36,Youth unemployment
+27,37,Remittances
+28,40,Percent urban population
+29,41,Female labor force participation
+30,42,Male labor force participation
+31,43,Labor force participation
+32,45,"GDP, constant dollars"
+33,47,"Trade balance, percent of GDP"
+34,48,External debt
+35,49,"Government spending, percent of GDP"
+36,50,"Capital investment, percent of GDP"
+37,52,"Savings, percent of GDP"
+38,53,"GDP per capita, constant dollars"
+39,56,Birth rate
+40,57,Death rate
+41,58,Health spending per capita
+42,59,Health spending as percent of GDP
+43,60,Tuberculosis
+44,61,Age dependency ratio
+45,62,Fertility rate
+46,63,Women in parliament
+47,68,"ATMs per 100,000 adults"
+48,69,Non-performing loans
+49,70,Credit information sharing
+50,71,Listed companies
+51,72,Stock market turnover ratio
+52,73,Legal rights
+53,75,Female unemployment
+54,76,Male unemployment
+55,77,Labor force: percent female
+56,81,Competitiveness
+57,83,Voice and accountability
+58,86,Regulatory quality
+59,90,Economic globalization
+60,91,Social globalization
+61,92,Political globalization
+62,93,Overall globalization
+63,95,Property rights
+64,96,Freedom from corruption
+65,97,Fiscal freedom
+66,98,Business freedom
+67,99,Labor freedom
+68,100,Monetary freedom
+69,101,Trade freedom
+70,102,Investment freedom
+71,103,Financial freedom
+72,104,Human development
+73,106,Political rights
+74,107,Civil liberties
+75,108,Corruption perceptions - Transparency International
+76,111,Tax revenue
+77,112,Commercial tax rate
+78,113,Tax preparation time
+79,114,Number of taxes
+80,115,Taxes on goods and services
+81,116,Taxes on international trade
+82,117,Income and profits taxes
+83,118,Innovation index
+84,124,High tech exports
+85,125,"High tech exports, percent of manufactured exports"
+86,127,Patent applications by residents
+87,131,Terms of trade
+88,132,Port traffic
+89,133,Information technology exports
+90,134,Employment in agriculture
+91,135,Access to electricity
+92,136,Carbon dioxide (CO2) emissions
+93,137,Carbon dioxide (CO2) emissions per capita
+94,141,"Student teacher ratio, primary school"
+95,142,"Female to male ratio, primary school pupils"
+96,143,"Female to male ratio, secondary school students"
+97,144,"Female to male ratio, students at tertiary level education"
+98,145,Secondary school enrollment
+99,146,Primary school enrollment
+100,147,Preprimary school enrollment
+101,148,Tertiary school enrollment
+102,150,"Education spending, percent of GDP"
+103,152,"Education spending, percent of government spending"
+104,153,Primary school completion rate
+105,154,Literacy rate
+106,155,"Female literacy rate, ages 15-24"
+107,156,"Male literacy rate, ages 15-24"
+108,157,"Youth literacy rate, ages 15-24"
+109,158,"School starting age, primary school"
+110,161,Natural resources income
+111,162,Oil revenue
+112,163,Natural gas revenue
+113,167,Airline passengers
+114,168,"Internet subscribers, per 100 people"
+115,169,Internet subscribers
+116,170,Mobile phone subscribers
+117,171,"Mobile phone subscribers, per 100 people"
+118,174,"Railroad lines, km"
+119,175,Railway transport of goods
+120,176,Railway passengers
+121,177,"Portfolio investment inflows, equities"
+122,179,Dollar exchange rate
+123,180,Real interest rate
+124,181,Cost of starting a business
+125,184,"Household consumption, percent of GDP"
+126,187,FDI Confidence Index
+127,190,Gasoline production
+128,191,Jet fuel production
+129,192,LPG production
+130,193,Oil consumption
+131,194,Gasoline consumption
+132,195,Jet fuel consumption
+133,196,LPG consumption
+134,197,Oil reserves
+135,198,Coal production
+136,199,Coal consumption
+137,200,Coal imports
+138,201,Coal exports
+139,202,Electricity production
+140,203,Nuclear power generation
+141,204,Hydroelectricity generation
+142,205,Electricity consumption
+143,206,Electricity production capacity
+144,207,Electricity imports
+145,208,Electricity exports
+146,209,Renewable power generation
+147,228,"Economic freedom, overall index"
+148,229,"Exports, billion dollars"
+149,230,Corporate tax rate
+150,231,"Imports, billion dollars"
+151,232,Indirect tax rate
+152,233,Agriculture value added
+153,234,Industry value added
+154,235,Manufacturing value added
+155,236,Services value added
+156,237,"Foreign Direct Investment, billion dollars"
+157,238,"Current account, in dollars"
+158,239,"Trade balance, in dollars"
+159,240,"Stock market capitalization, in dollars"
+160,241,"Household consumption, in dollars"
+161,242,"Savings, in dollars"
+162,243,"Capital investment, in dollars"
+163,244,"Government spending, in dollars"
+164,245,Personal income tax rate
+165,247,"Political risk, short-term"
+166,248,Gasoline prices
+167,249,Diesel prices
+168,260,"Political risk, medium/long-term"
+169,262,Special transactions risk
+170,263,Expropriation risk
+171,264,Transfer risk
+172,265,Political violence risk
+173,275,Commercial vehicle sales
+174,276,Passenger car sales
+175,298,"Access to drinking water, urban"
+176,321,Imprisonment rate
+177,334,Homicide rate
+178,338,"GDP per capita, current dollars"
+179,339,"Electricity from renewable sources, kWh"
+180,349,Percent of world population
+181,350,Percent of world GDP
+182,353,Household debt to GDP
+183,356,Percent of world exports
+184,358,Percent of world imports
+185,359,Trade openness
+186,360,Percent of world oil reserves
+187,361,Happiness index
+188,362,Labor force
+189,364,Agricultural land
+190,366,"Arable land, percent of land area"
+191,367,Precipitation
+192,368,Cereal crop yield by hectar
+193,369,Crop production index
+194,370,Fertilizer use
+195,371,Food production index
+196,372,"Forest area, percent"
+197,373,"Forest area, sq.km"
+198,374,Livestock production index
+199,375,"Rural population, percent"
+200,377,Percent of world FDI
+201,378,Land area
+202,379,Percent female population
+203,380,Percent children
+204,381,Population ages 65 and above
+205,382,Stock price volatility
+206,383,Stock market return
+207,387,Foreign bank assets
+208,390,Air transport infrastructure quality
+209,391,Roads quality
+210,392,Railroad infrastructure quality
+211,393,Port infrastructure quality
+212,394,Mobile network coverage
+213,395,Internet bandwidth
+214,397,Banking system concentration
+215,398,Banking system z-scores
+216,401,"Bank branches per 100,000 people"
+217,403,Percent people with bank accounts
+218,406,Bank cost to income ratio
+219,408,Stock market access for smaller firms
+220,409,Stock market activity for smaller firms
+221,410,Investment financed with equity
+222,412,Banking system capital to assets
+223,413,Bank credit to deposits
+224,414,Regulatory capital to risk-weighted assets
+225,415,Liquid assets to deposits
+226,418,Bank credit to government
+227,429,Suicides
+228,431,Pension fund assets to GDP
+229,434,Stock market value traded
+230,441,Net interest margin
+231,442,Overhead cost
+232,443,Return on assets
+233,444,Return on equity
+234,445,Lending-deposit interest rate spread
+235,446,Non-interest income to total income
+236,447,Life insurance volume
+237,448,Non-life insurance premium volume
+238,449,Insurance company assets
+239,450,Mutual fund assets
+240,451,"Remittances, percent of GDP"
+241,452,Bank assets to GDP
+242,453,"Financial system deposits, percent of GDP"
+243,455,"Liquid liabilities, percent of GDP"
+244,456,Domestic credit to the private sector
+245,457,Bank accounts per 1000 adults
+246,460,Small firms with bank credit
+247,461,Percent people with debit cards
+248,462,Percent people with credit cards
+249,463,Firms using credit to finance investment
+250,474,Economic growth forecast
+251,475,Inflation forecast
+252,476,Investment forecast
+253,477,Unemployment rate forecast
+254,478,Budget balance forecast
+255,479,Current account forecast
+256,480,Voice and accountability
+257,481,Rule of law
+258,482,Government effectiveness
+259,483,Control of corruption
+260,484,Short-term external debt
+261,487,Short-term debt to reserves
+262,505,Private sector credit
+263,506,Business credit
+264,507,Household credit
+265,510,Gross Domestic Product (GDP)
+266,511,Consumer Price Index (CPI)
+267,512,Money supply (broad money)
+268,519,Unemployment rate
+269,522,"Economic growth, quarterly"
+270,523,Current account balance
+271,524,Exports
+272,525,FDI
+273,526,Foreign exchange reserves
+274,532,Budget balance
+275,533,Labor cost
+276,534,Industrial production
+277,535,"Inflation, monthly"
+278,536,"Inflation, annual"
+279,537,Exchange rate to USD
+280,547,"Diamond production, carats"
+281,548,"Diamond production, million USD"
+282,549,"Diamond production, USD per carat"
+283,550,"Diamond imports, carats"
+284,551,"Diamond imports, million USD"
+285,552,"Diamond imports, USD per carat"
+286,553,"Diamond exports, carats"
+287,554,"Diamond exports, million USD"
+288,555,"Diamond exports, USD per carat"
+289,556,Shadow economy
+290,557,Business confidence survey
+291,558,Consumer confidence survey
+292,560,Coal reserves
+293,561,Wind electricity capacity
+294,562,Wind electricity generation
+295,563,Solar electricity capacity
+296,564,Solar electricity generation
+297,565,Hydroelectricity capacity
+298,566,Nuclear electricity capacity
+299,569,Geothermal electricity capacity
+300,570,Geothermal electricity generation
+301,571,Fossil fuels electricity capacity
+302,572,Fossil fuels electricity generation
+303,573,Renewable power capacity
+304,575,Political stability
+305,578,Economic growth Q-on-Q
+306,579,Competitiveness
+307,580,"Purchasing Managers Index (PMI), composite"
+308,581,"Purchasing Managers Index (PMI), manufacturing"
+309,582,"Purchasing Managers Index (PMI), services"
+310,584,Sovereign credit ratings
+311,594,Fragile state index
+312,595,Security threats index
+313,596,Factionalized elites index
+314,597,Group grievance index
+315,598,Economic decline index
+316,599,Uneven economic development
+317,600,Human flight and brain drain
+318,601,State legitimacy index
+319,602,Public services index
+320,603,Human rights and rule of law index
+321,604,Demographic pressures index
+322,605,Refugees and displaced persons index
+323,606,External interventions index
+324,660,Retail sales Y-on-Y
+325,667,Oil production
+326,669,Gini inequality index
+327,670,House price index
+328,671,Top 10 percent income share
+329,672,Poverty at 1.90 USD per day
+330,673,Poverty at 5.50 USD per day
+331,674,Poverty ratio
+332,675,Share Price Index
+333,676,Credit gap
+334,677,Bank credit to GDP ratio
+335,678,Policy rate
+336,680,Total credit to households
+337,681,Total credit to non-financial corporations
+338,682,Credit to private non-financial sector
+339,684,Debt service ratios for private non-financial sector
+340,685,Real residential property prices Y-on-Y change
+341,688,Exchange rate to GBP
+342,691,"Military spending, percent of GDP"
+343,692,Military spending
+344,694,Johnnie Walker whiskey
+345,695,Vodka Smirnoff
+346,697,Milk
+347,698,Evian water
+348,699,Eggs
+349,701,Flour
+350,702,Uncle Ben's rice
+351,703,Apples
+352,704,Bananas
+353,705,Potatoes
+354,706,Carrots
+355,707,Onions
+356,708,Cooking oil
+357,709,Sugar
+358,710,Salt
+359,711,Nescafe Gold
+360,712,Beans
+361,713,Rice
+362,714,Net errors and omissions
+363,715,Maternal mortality
+364,716,Neonatal mortality
+365,717,Child mortality
+366,718,"Child mortality, male"
+367,720,"Child mortality, female"
+368,721,Infant mortality
+369,723,Population density
+370,724,Refugee population
+371,725,Migrant population
+372,726,Population growth
+373,727,DPT immunization rate
+374,728,Hepatitis B immunization rate
+375,729,Measles immunization rate
+376,730,Tourist arrivals
+377,731,International tourism revenue
+378,732,"International tourism revenue, percent of GDP"
+379,733,Percent of world tourist arrivals
+380,735,Tourist departures
+381,819,"Iphone 13, 128GB"
+382,820,GoPro Hero 9
+383,821,Playstation 5
+384,823,"Macbook Pro 13, 256 GB"
+385,824,"Ipad Pro 11, 128GB"
+386,825,"Apple Watch 6, 44mm"
+387,826,"Dell XPS 13, 256 GB"
+388,829,Big Mac menu
+389,830,H and M male business outfit
+390,831,Beef
+391,832,H and M female business outfit
+392,833,IKEA BILLY Bookcase
+393,834,IKEA POÄNG chair
+394,835,Poultry
+395,836,Coca-Cola
+396,837,Heineken
+397,838,"Fiscal balance, percent of GDP"
+398,839,Household debt to GDP
+399,840,Stock market index
+400,842,Armed forces
+401,843,"Armed forces, percent of labor force"
+402,844,"Military spending, percent of government spending"
+403,845,Arms exports
+404,846,Arms imports
+405,847,Hospital beds
+406,849,Foreign aid
+407,852,Potash production
+408,853,Gold production
+409,854,Silver production
+410,855,Platinum production
+411,856,Copper production
+412,857,Iron production
+413,858,Lithium production
+414,859,Cobalt production
+415,860,Zinc production
+416,861,Bauxite production
+417,864,"Hospital beds per 1,000 people"
+418,866,"Doctors per 1,000 people"
+419,867,"Nurses per 1,000 people"
+420,876,"Current account, percent of GDP"
+421,941,Food prices
+422,942,Captain Morgan Spiced Gold Rum
+423,943,Gordon's London Dry Gin
+424,947,Red Bull
+425,948,Twinings Earl Grey tea
+426,949,Yellow Tail Merlot
+427,952,Covid new cases
+428,953,Covid new deaths
+429,954,Covid new cases per million
+430,955,Covid new deaths per million
+431,956,Housing and utilities prices
+432,957,Bread and cereal prices
+433,958,Fish and seafood prices
+434,959,"Milk, cheese, and eggs prices"
+435,960,Fruit prices
+436,961,Vegetable prices
+437,962,Alcohol beverage prices
+438,963,Tobacco and cigarette prices
+439,964,Healthcare prices
+440,965,Transport prices
+441,966,Hotel and restaurant prices
+442,967,Cost of living
+443,972,Machinery and equipment prices
+444,973,Vehicle prices
+445,974,Clothing and footwear prices
+446,975,Communication prices
+447,976,Furniture and household maintenance prices
+448,977,Recreation and culture prices
+449,978,Education prices
+450,979,Meat prices
+451,982,Covid reproduction rate
+452,983,Covid positive rate
+453,984,Covid new vaccinations
+454,985,Stringency Index
+455,986,Covid total cases
+456,987,Covid total deaths
+457,988,Covid total cases per million people
+458,989,Covid total deaths per million
+459,990,Covid total tests
+460,991,Covid total tests per thousand
+461,992,Covid total vaccinations
+462,993,People vaccinated against Covid
+463,994,People fully vaccinated against Covid
+464,995,Total vaccinations per hundred people
+465,996,Covid vaccinated people per hundred people
+466,997,Covid fully vaccinated people per hundred people
+467,998,Electricity generation
+468,1000,Civil Liberties
+469,1001,Political rights
+470,1004,Electricity consumption

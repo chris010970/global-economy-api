@@ -1,0 +1,101 @@
+,index,name
+0,505,Private sector credit
+1,506,Business credit
+2,507,Household credit
+3,508,Mortgage credit
+4,509,Consumer credit
+5,510,Gross Domestic Product (GDP)
+6,511,Consumer Price Index (CPI)
+7,512,Money supply (broad money)
+8,513,Deposit interest rate
+9,519,Unemployment rate
+10,520,Household consumption
+11,521,Investment
+12,522,"Economic growth, quarterly"
+13,523,Current account balance
+14,524,Exports
+15,525,FDI
+16,526,Foreign exchange reserves
+17,527,Consumption growth
+18,528,Investment as percent of GDP
+19,529,Investment growth
+20,530,Government expenditure
+21,531,Consumption as percent of GDP
+22,532,Budget balance
+23,534,Industrial production
+24,535,"Inflation, monthly"
+25,536,"Inflation, annual"
+26,537,Exchange rate to USD
+27,557,Business confidence survey
+28,558,Consumer confidence survey
+29,578,Economic growth Q-on-Q
+30,580,"Purchasing Managers Index (PMI), composite"
+31,581,"Purchasing Managers Index (PMI), manufacturing"
+32,582,"Purchasing Managers Index (PMI), services"
+33,670,House price index
+34,678,Policy rate
+35,684,Debt service ratios for private non-financial sector
+36,685,Real residential property prices Y-on-Y change
+37,694,Johnnie Walker whiskey
+38,695,Vodka Smirnoff
+39,697,Milk
+40,698,Evian water
+41,699,Eggs
+42,701,Flour
+43,703,Apples
+44,704,Bananas
+45,705,Potatoes
+46,706,Carrots
+47,707,Onions
+48,708,Cooking oil
+49,709,Sugar
+50,710,Salt
+51,711,Nescafe Gold
+52,712,Beans
+53,713,Rice
+54,819,"Iphone 13, 128GB"
+55,820,GoPro Hero 9
+56,821,Playstation 5
+57,823,"Macbook Pro 13, 256 GB"
+58,824,"Ipad Pro 11, 128GB"
+59,825,"Apple Watch 6, 44mm"
+60,827,Domino's pizza
+61,833,IKEA BILLY Bookcase
+62,834,IKEA POÄNG chair
+63,835,Poultry
+64,836,Coca-Cola
+65,837,Heineken
+66,839,Household debt to GDP
+67,840,Stock market index
+68,841,Long-term government bond yield
+69,942,Captain Morgan Spiced Gold Rum
+70,943,Gordon's London Dry Gin
+71,946,Orange juice
+72,947,Red Bull
+73,948,Twinings Earl Grey tea
+74,949,Yellow Tail Merlot
+75,950,Bottled water
+76,952,Covid new cases
+77,953,Covid new deaths
+78,954,Covid new cases per million
+79,955,Covid new deaths per million
+80,968,Covid new tests
+81,981,Covid new tests per thousand
+82,982,Covid reproduction rate
+83,983,Covid positive rate
+84,984,Covid new vaccinations
+85,985,Stringency Index
+86,986,Covid total cases
+87,987,Covid total deaths
+88,988,Covid total cases per million people
+89,989,Covid total deaths per million
+90,990,Covid total tests
+91,991,Covid total tests per thousand
+92,992,Covid total vaccinations
+93,993,People vaccinated against Covid
+94,994,People fully vaccinated against Covid
+95,995,Total vaccinations per hundred people
+96,996,Covid vaccinated people per hundred people
+97,997,Covid fully vaccinated people per hundred people
+98,998,Electricity generation
+99,1004,Electricity consumption
