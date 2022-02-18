@@ -203,7 +203,7 @@ class Client:
         return df
 
 
-    def getUri( self, countries, frequency, **kwargs ):
+    def getUri( self, iso_codes, frequency, **kwargs ):
 
         """
         build and post uri request
@@ -218,18 +218,15 @@ class Client:
             end_year = kwargs.get( 'end_year', datetime.now().year )
             period = f'{start_year}:{end_year}'
 
-        # convert country name if defined to ISO alpha 2/3 codes
-        iso_codes = self.getIsoCountryCodes ( countries )
-
         # use alpha_2 codes for annual uris
         if frequency is Client.Frequency.annual:
-            codes = [ code[ 'alpha_2' ] for code in iso_codes ]
+            codes = self.getAlpha2Codes( iso_codes )
 
         # use api-specific (*ugh*) codes for monthly uris
         if frequency is Client.Frequency.monthly:
 
-            alpha_3_codes = [ code[ 'alpha_3' ] for code in iso_codes ]
-            codes = self._lut[ 'api' ][ self._lut[ 'api' ][ 'code' ].str.contains( '|'.join( alpha_3_codes ) ) ]
+            alpha3_codes = self.getAlpha3Codes( iso_codes )
+            codes = self._lut[ 'api' ][ self._lut[ 'api' ][ 'code' ].str.contains( '|'.join( alpha3_codes ) ) ]
             codes = [ code for code in codes[ 'id' ] ]
 
         # parse indicator args
@@ -277,26 +274,52 @@ class Client:
         return uid, uidc
 
 
-    def getIsoCountryCodes( self, countries ):
+    def getAlpha2Codes( self, iso_codes ):
 
         """
         convert country names into alpha 2 or alpha 3 codes
         """
 
         # iterate through country names
-        iso = list()
-        for name in countries:
+        codes = set()
+        for iso_code in iso_codes:
             try:
-                
-                # convert country name into alpha 2 / 3 codes
-                iso.append( { 'alpha_2' : pycountry.countries.get(name=name).alpha_2,
-                                'alpha_3' : pycountry.countries.get(name=name).alpha_3 
-                            } )
+
+                if len( iso_code ) == 2:
+                    codes.add( iso_code )
+                    continue
+
+                if len( iso_code ) == 3:
+                    codes.add( pycountry.countries.get(alpha_3=iso_code).alpha_2 )
                             
             except BaseException as error:
                 print ( 'Error: {} '.format ( error ) )
 
-        return iso
+        return codes
+
+
+    def getAlpha3Codes( self, iso_codes ):
+
+        """
+        convert country names into alpha 2 or alpha 3 codes
+        """
+
+        # iterate through country names
+        codes = set()
+        for iso_code in iso_codes:
+            try:
+
+                if len( iso_code ) == 3:
+                    codes.add( iso_code )
+                    continue
+
+                if len( iso_code ) == 2:
+                    codes.add( pycountry.countries.get(alpha_2=iso_code).alpha_3 )
+                            
+            except BaseException as error:
+                print ( 'Error: {} '.format ( error ) )
+
+        return codes
 
 
     def getIndicatorIndexes( self, frequency, names ):
@@ -331,7 +354,7 @@ class Client:
 
             # test countries + monthly indicator names
             print ( 'test 1')
-            uri = obj.getUri( ['India', 'China'], Client.Frequency.monthly, indicators=['Debt service ratios for private non-financial sector'], period='latest' )
+            uri = obj.getUri( ['IN', 'CN'], Client.Frequency.monthly, indicators=['Debt service ratios for private non-financial sector'], period='latest' )
             print ( uri )
 
             # convert response to dataframe
@@ -344,7 +367,7 @@ class Client:
             # test countries + annual indicator names
             print ( 'test 2')
             indicators = [ 'Exports, percent of GDP', 'Access to electricity' ]
-            uri = obj.getUri( [ 'India', 'China'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
+            uri = obj.getUri( [ 'IND', 'CHN'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
             print ( uri )
 
             # convert response to dataframe
@@ -358,7 +381,7 @@ class Client:
             # test countries + annual indicator names
             print ( 'test 3')
             indicators = [ 'Exports, percent of GDP', 'Access to electricity' ]
-            uri = obj.getUri( [ 'India', 'China'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
+            uri = obj.getUri( [ 'IN', 'CN'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
             print ( uri )
 
             # convert response to dataframe
