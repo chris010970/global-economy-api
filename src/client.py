@@ -121,7 +121,7 @@ class Client:
         return lut
 
 
-    def postRequest( self, uri, timeout=5 ):
+    def postRequest( self, uri, timeout=60 ):
         
         """
         post request to global economy server and handle response
@@ -214,10 +214,15 @@ class Client:
         # create period string        
         period = kwargs.get( 'period' )        
         if period is None:
-            start_year = kwargs.get( 'start_year', 1960 )
-            end_year = kwargs.get( 'end_year', datetime.now().year )
-            period = f'{start_year}:{end_year}'
 
+            # get start / end dates
+            start_date = kwargs.get( 'start_date', '1960-01-01' )
+            end_date = kwargs.get( 'end_date', datetime.now().strftime('%Y-%m-%d') )
+
+            # get period
+            period = '{start_year}:{end_year}'.format( start_year=datetime.strptime( start_date, '%Y-%m-%d' ).year,
+                                                        end_year=datetime.strptime( end_date, '%Y-%m-%d' ).year )
+            
         # use alpha_2 codes for annual uris
         if frequency is Client.Frequency.annual:
             codes = self.getAlpha2Codes( iso_codes )
@@ -367,7 +372,7 @@ class Client:
             # test countries + annual indicator names
             print ( 'test 2')
             indicators = [ 'Exports, percent of GDP', 'Access to electricity' ]
-            uri = obj.getUri( [ 'IND', 'CHN'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
+            uri = obj.getUri( [ 'IND', 'CHN'], Client.Frequency.annual, indicators=indicators, start_date='1960-01-01', end_date='2020-01-01' )
             print ( uri )
 
             # convert response to dataframe
@@ -381,7 +386,7 @@ class Client:
             # test countries + annual indicator names
             print ( 'test 3')
             indicators = [ 'Exports, percent of GDP', 'Access to electricity' ]
-            uri = obj.getUri( [ 'IN', 'CN'], Client.Frequency.annual, indicators=indicators, start_year=1960, end_year=2020 )
+            uri = obj.getUri( [ 'IN', 'CN'], Client.Frequency.annual, indicators=indicators, start_date='1960-01-01', end_date='2020-01-01' )
             print ( uri )
 
             # convert response to dataframe
